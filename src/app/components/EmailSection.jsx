@@ -43,7 +43,7 @@ const EmailSection = () => {
 
     <section
       id="Contact"
-      className="grid md:grid-cols-2 pb-12 pt-28 gap-4 relative "
+      className="grid md:grid-cols-2 pb-12 pt-28 mt-24 gap-4 relative "
     >
 
       <div className="z-10">

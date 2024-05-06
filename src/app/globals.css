@@ -23,8 +23,8 @@ html {
   transform: translateZ(0);
 }
 
-/* styles.css */
+/* .icon{
+  width: ;
+} */
 
-.bg-gradient-to-tr {
-  background: radial-gradient(ellipse at center, var(--tw-gradient-stops));
-}
+

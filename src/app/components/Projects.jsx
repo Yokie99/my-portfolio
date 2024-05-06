@@ -40,6 +40,18 @@ const Projects = () => {
                     <div>
                         <h1 className='text-4xl py-3'>PokeDex</h1>
                         <h2>React project utilizing the Pokemon API to call fetch its data. Local storge used to save favorites.</h2>
+                        <p>Built with:</p>
+                        <div className='grid grid-cols-4 gap-3'>
+        
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
+          
+      
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+      
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+      
+          
+        </div>
                     </div>
 
 
