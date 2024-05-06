@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
+}
+
+@layer utilities {
+  @media (max-width: 640px){
+    .projDes {
+      background-color: rgb(112, 128, 144, 0.5);
+    }
+  }
+}
+
+.transition-transform {
+  transition-property: transform;
+}
+
+.transform-gpu {
+  transform: translateZ(0);
 }
