@@ -1,9 +1,18 @@
-import Image from "next/image";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+
 
 export default function Home() {
   return (
-    <main>
-      <h1 className="text-2xl">This is my portfolio WIP</h1>
+    <main className="flex flex-col bg-gray-800 min-h-screen text-white">
+      <Navbar/>
+      <About/>
+      <Projects/>
+      <Contact/>
+    
+      
     </main>
   );
 }
