@@ -4,6 +4,7 @@
 
 html {
   scroll-behavior: smooth;
+  background-color: rgb(31, 41, 55);
 }
 
 @layer utilities {
@@ -20,4 +21,10 @@ html {
 
 .transform-gpu {
   transform: translateZ(0);
+}
+
+/* styles.css */
+
+.bg-gradient-to-tr {
+  background: radial-gradient(ellipse at center, var(--tw-gradient-stops));
 }

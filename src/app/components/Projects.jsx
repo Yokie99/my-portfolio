@@ -5,7 +5,7 @@ import pokemonSS from "../assets/pokemon_Screencap.png"
 
 const Projects = () => {
 
-    const [isSelected, setIsSelected] = useState<Boolean>(false)
+    const [isSelected, setIsSelected] = useState(false)
     const buttonStyles = isSelected
         ? "text-white border-primary-500"
         : "text-[#ADB7BE] border-slate-600 hover:border-white";

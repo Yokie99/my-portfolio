@@ -1,15 +1,15 @@
 import React from "react";
 import NavLink from "./NavLink";
 
-interface MenuOverlayProps {
-    // links:[{
-    //     path:string,
-    //     title:string
-    // }]
-    links:{ title: string; path: string; }[]
-  }
+// interface MenuOverlayProps {
+//     // links:[{
+//     //     path:string,
+//     //     title:string
+//     // }]
+//     links:{ title: string; path: string; }[]
+//   }
 
-const MenuOverlay = ({ links }:MenuOverlayProps) => {
+const MenuOverlay = ({ links }) => {
   return (
     <ul className="flex flex-col py-4 items-center">
       {links.map((link, index) => (
