@@ -23,8 +23,9 @@ html {
   transform: translateZ(0);
 }
 
-/* .icon{
-  width: ;
-} */
+.icons{
+  width: 20px;
+  height: 20px;
+}
 
 
