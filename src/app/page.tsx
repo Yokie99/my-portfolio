@@ -5,10 +5,18 @@ import Projects from "./components/Projects";
 import React from "react";
 import EmailSection from "./components/EmailSection";
 
+import { Montserrat } from "next/font/google";
 
+const montserrat = Montserrat({
+    subsets: ["latin"],
+    weight: "400",
+    variable: "--font-spacemono",
+  });
 export default function Home() {
+
+  
   return (
-    <main className="flex flex-col  min-h-screen text-white">
+    <main className={`flex flex-col ${montserrat.className} min-h-screen text-white`}>
       <Navbar />
       <About />
       <Projects />

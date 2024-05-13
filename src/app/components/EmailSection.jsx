@@ -66,11 +66,7 @@ const EmailSection = () => {
         </div>
       </div>
       <div>
-        {emailSubmitted ? (
-          <p className="text-green-500 text-sm mt-2">
-            Email sent successfully!
-          </p>
-        ) : (
+        
           <form className="flex flex-col" onSubmit={handleSubmit}>
             <div className="mb-6">
               <label
@@ -125,6 +121,12 @@ const EmailSection = () => {
               Send Message
             </button>
           </form>
+          {emailSubmitted ? (
+          <p className="text-green-500 text-sm mt-2">
+            Email sent successfully!
+          </p>
+        ) : (
+          <div></div>
         )}
       </div>
     </section>

@@ -2,9 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
 html {
   scroll-behavior: smooth;
   background-color: rgb(31, 41, 55);
+  font-family: 'montserrat';
 }
 
 @layer utilities {
@@ -24,7 +26,8 @@ html {
 }
 
 .icons{
-  width: 3.4vw;
+  width: 4vw;
+  padding-top: 1rem;
 
 }
 
