@@ -2,9 +2,12 @@
 import React, { useState } from "react";
 import ProjectToggle from "./ProjectToggle"
 
+import { ChakraProvider, Fade, useDisclosure } from '@chakra-ui/react';
+import FadeTest from "./FadeTest";
+
 
 const Projects = () => {
-  const [isSelected1, setIsSelected1] = useState(false);
+  const [isSelected1, setIsSelected1] = useState(true);
   const [isSelected2, setIsSelected2] = useState(false);
   const [isSelected3, setIsSelected3] = useState(false);
   const [btnNumber, setBtnNumber] = useState(1);
@@ -26,25 +29,29 @@ const Projects = () => {
         setIsSelected2(false);
         setIsSelected3(false);
         setBtnNumber(1)
+        
         break;
       case 2:
         setIsSelected1(false);
         setIsSelected2(true);
         setIsSelected3(false);
         setBtnNumber(2)
+    
         break;
       case 3:
         setIsSelected1(false);
         setIsSelected2(false);
         setIsSelected3(true);
         setBtnNumber(3)
+      
         break;
       default:
         break;
     }
   };
+
   return (
-    <section id="projects" className="py-20 min-h-screen">
+    <section id="projects" className=" py-28 min-h-screen">
       <div className="flex justify-center">
         <h1 className="text-5xl">Projects</h1>
       </div>
@@ -69,7 +76,12 @@ const Projects = () => {
         </button>
       </div>
 
-      <ProjectToggle toggle={btnNumber}/>
+
+      <ProjectToggle toggle={btnNumber} isOpen1={isSelected1} isOpen2 = {isSelected2} isOpen3={isSelected3}/>
+   
+    
+
+   
     </section>
   );
 };

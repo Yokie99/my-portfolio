@@ -50,18 +50,20 @@ const EmailSection = () => {
         <h5 className="text-xl font-bold text-white my-2">
           Let&apos;s Connect
         </h5>
-        <p className="text-[#ADB7BE] mb-4 max-w-md">
-          {" "}
+        <p className="text-gray-300 mb-4 max-w-md">
+          
           I&apos;m currently looking for new opportunities, my inbox is always
           open. Whether you have a question or just want to say hi, I&apos;ll
-          try my best to get back to you!
+          try my best to get back to you as soon as I can!
         </p>
-        <div className="socials flex flex-row gap-2">
+        <p className="text-gray-300 mb-4 max-w-md">Underneath are my socials or you can fill out the form on this site and it will send an email to me directly
+        </p>
+        <div className="socials flex flex-row gap-6">
           <Link href="https://github.com/Yokie99/">
-            <Image src={GithubIcon} alt="Github Icon" />
+            <Image src={GithubIcon} alt="Github" />
           </Link>
           <Link href="https://www.linkedin.com/in/kyle-yok-eyh-ma-87b6601a0">
-            <Image src={LinkedinIcon} alt="Linkedin Icon" />
+            <Image src={LinkedinIcon} alt="Linkedin" />
           </Link>
         </div>
       </div>
@@ -81,7 +83,7 @@ const EmailSection = () => {
                 id="email"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="jacob@google.com"
+                placeholder=""
               />
             </div>
             <div className="mb-6">
@@ -97,7 +99,7 @@ const EmailSection = () => {
                 id="subject"
                 required
                 className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
-                placeholder="Just saying hi"
+                placeholder=""
               />
             </div>
             <div className="mb-6">
@@ -116,7 +118,7 @@ const EmailSection = () => {
             </div>
             <button
               type="submit"
-              className="bg-purple-500 hover:bg-gray-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+              className="bg-blue-500 hover:bg-gray-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
             >
               Send Message
             </button>
