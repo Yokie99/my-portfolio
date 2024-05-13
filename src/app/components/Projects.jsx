@@ -55,7 +55,7 @@ const Projects = () => {
       <div className="flex justify-center">
         <h1 className="lg:text-5xl md:text-2xl text-lg ">Projects</h1>
       </div>
-      <div className="flex flex-row justify-center items-center gap-2 py-6 overflow-x-scroll">
+      <div className="flex flex-row justify-center items-center gap-2 py-6">
         <button
           className={`${buttonStyles1} rounded-full border-2 px-6 py-3 lg:text-xl md:text-lg text-sm cursor-pointer`}
           onClick={() => handleBtnClick(1)}
