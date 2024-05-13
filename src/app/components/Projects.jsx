@@ -51,28 +51,28 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className=" py-28 min-h-screen">
+    <section id="projects" className=" lg:py-28 pt-16 min-h-screen">
       <div className="flex justify-center">
-        <h1 className="text-5xl">Projects</h1>
+        <h1 className="lg:text-5xl md:text-2xl text-lg ">Projects</h1>
       </div>
-      <div className="flex flex-row justify-center items-center gap-2 py-6 ">
+      <div className="flex flex-row justify-center items-center gap-2 py-6 overflow-x-scroll">
         <button
-          className={`${buttonStyles1} rounded-full border-2 px-6 py-3 text-xl cursor-pointer`}
+          className={`${buttonStyles1} rounded-full border-2 px-6 py-3 lg:text-xl md:text-lg text-sm cursor-pointer`}
           onClick={() => handleBtnClick(1)}
         >
           PokeDex Project
         </button>
         <button
-          className={`${buttonStyles2} rounded-full border-2 px-6 py-3 text-xl cursor-pointer`}
+          className={`${buttonStyles2} rounded-full border-2 px-6 py-3 lg:text-xl md:text-lg text-sm cursor-pointer`}
           onClick={() => handleBtnClick(2)}
         >
           Court Monitor
         </button>
         <button
-          className={`${buttonStyles3} rounded-full border-2 px-6 py-3 text-xl cursor-pointer`}
+          className={`${buttonStyles3} rounded-full border-2 px-6 py-3 lg:text-xl md:text-lg text-sm cursor-pointer`}
           onClick={() => handleBtnClick(3)}
         >
-          All For One API Challenge
+          MiniQuest: API Challenge
         </button>
       </div>
 

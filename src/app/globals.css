@@ -10,7 +10,7 @@ html {
 }
 
 @layer utilities {
-  @media (max-width: 640px){
+  @media (max-width: 1023px){
     .projDes {
       background-color: rgb(112, 128, 144, 0.5);
     }
@@ -26,9 +26,26 @@ html {
 }
 
 .icons{
-  width: 4vw;
+  width: 5vw;
   padding-top: 1rem;
-
 }
+
+.picture{
+  width: 24vw;
+}
+
+  @media (max-width: 1023px){
+    .icons {
+      width: 7vw;
+    }
+    .picture{
+      width: 35vw;
+      margin-top: 3rem;
+    }
+
+  }
+
+
+
 
 
