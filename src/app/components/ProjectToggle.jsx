@@ -18,7 +18,7 @@ const ProjectToggle = (props) => {
                 in={isOpen1}
                 unmountOnExit={true}
                 reverse={false}
-                initialScale={.0000000005}
+                initialScale={.0000000000005}
                 >
                 <div className={isOpen1 ? "grid grid-cols-12" : "hidden"}>
                     <div className="lg:col-span-7 col-span-12 transition-transform duration-300 transform-gpu hover:scale-90   bg-blue-600 lg:pe-8 lg:pt-8 lg:pb-8 pe-4 pt-4 pb-4">
@@ -29,7 +29,7 @@ const ProjectToggle = (props) => {
 
                         >
                             <Image
-                                className="cursor-pointer"
+                                className="cursor-pointer w-full h-full"
                                 src={pokemonSS}
                                 alt={"preview of pokemon react project"}
                             />
@@ -62,7 +62,7 @@ const ProjectToggle = (props) => {
                 in={isOpen2}
                 unmountOnExit={true}
                 reverse={true}
-                initialScale={.0000000005}
+                initialScale={.0000000000005}
                 >
                 <div className={isOpen2 ? "grid grid-cols-12" : "hidden"}>
                     <div className="lg:col-span-7 col-span-12 transition-transform duration-300 transform-gpu hover:scale-90   bg-blue-600 lg:pe-8 lg:pt-8 lg:pb-8 pe-4 pt-4 pb-4">
@@ -73,7 +73,7 @@ const ProjectToggle = (props) => {
 
                         >
                             <Image
-                                className="cursor-pointer"
+                                className="cursor-pointer w-full h-full"
                                 src={courtmonitor}
                                 alt={"preview of pokemon react project"}
                             />
@@ -117,7 +117,7 @@ const ProjectToggle = (props) => {
                 in={isOpen3}
                 unmountOnExit={true}
                 reverse={false}
-                initialScale={.0000000005}>
+                initialScale={.0000000000005}>
                 <div className={isOpen3 ? "grid grid-cols-12" : "hidden"}>
                     <div className="lg:col-span-7 col-span-12 transition-transform duration-300 transform-gpu hover:scale-90   bg-blue-600 lg:pe-8 lg:pt-8 lg:pb-8 pe-4 pt-4 pb-4">
                         <a
@@ -127,7 +127,7 @@ const ProjectToggle = (props) => {
 
                         >
                             <Image
-                                className="cursor-pointer"
+                                className="cursor-pointer w-full h-full"
                                 src={miniquest}
                                 alt={"MiniQuest"}
                             />

@@ -31,15 +31,15 @@ html {
 }
 
 .picture{
-  width: 24vw;
+  width: 26vw;
 }
 
   @media (max-width: 1023px){
     .icons {
-      width: 7vw;
+      width: 10vw;
     }
     .picture{
-      width: 35vw;
+      width: 55vw;
       margin-top: 3rem;
     }
 

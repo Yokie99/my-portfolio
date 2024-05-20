@@ -15,9 +15,9 @@ const About = () => {
         <div className="">
           <h1 className="lg:text-7xl md:text-4xl text-2xl text-white py-3">Kyle, </h1>
           <h2 className="lg:text-5xl md:text-2xl text-lg py-3"> FullStack Developer</h2>
-          <div className="lg:text-xl md:text-lg text-sm">
+          <div className=" lg:text-lg md:text-md text-sm">
             <p className="pb-6">
-              Hello, my name is Kyle Yok Eyh Ma. I am a full stack developer with experince in React, JavaScript, and C#. During my time in university I took a couple of programming classes but it was not the core focus of my degree so I never put my full effort into learning how to fully ultilize it. While looking for a career change, I took the chance and commited my time to learning how to properly program by enrolling at CodeStack Academy. I am always up for a challenge and I find excitement in discovering and concuring new challenges!
+            Hello, I'm Kyle Yok Eyh Ma, a full stack developer with expertise in React, JavaScript, and C#. Although my university degree didn't focus on programming, while looking for a career change, I later committed to learning programming by enrolling at CodeStack Academy. I am always up for a challenge and I find excitement in discovering and concuring new challenges!
             </p>
             <p>When I am away from my computer you will be able most likely to find me either coaching the next generation of tennis players in the NorCal Area or riding a motorcycle around town or at the race tracks. </p>
           </div>
@@ -33,7 +33,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="text-3xl mt-40 hidden lg:block">
+      <div className="text-3xl mt-28 hidden lg:block mx-10">
 
         <div className="flex flex-row gap-12 justify-center">
 
@@ -83,7 +83,7 @@ const About = () => {
       </div>
 
       <div className="lg:hidden black mt-16">
-        <div className="flex flex-col  gap-4 text-start mx-[30vw]">
+        <div className="flex flex-col  gap-4 text-start mx-[20vw]">
   
           <div>
             <h1>Libraries:</h1>
