@@ -4,6 +4,7 @@ import Image from "next/image";
 import headshot from "../assets/Kyle_Ma_02_CSAS6_Headshots.jpg";
 
 
+
 const About = () => {
 
 
@@ -17,7 +18,7 @@ const About = () => {
           <h2 className="lg:text-5xl md:text-2xl text-lg py-3"> FullStack Developer</h2>
           <div className=" lg:text-lg md:text-md text-sm">
             <p className="pb-6">
-            Hello, I'm Kyle Yok Eyh Ma, a full stack developer with expertise in React, JavaScript, and C#. Although my university degree didn't focus on programming, while looking for a career change, I later committed to learning programming by enrolling at CodeStack Academy. I am always up for a challenge and I find excitement in discovering and concuring new challenges!
+            Hello, I&apos;m Kyle Yok Eyh Ma, a full stack developer with expertise in React, JavaScript, and C#. Although my university degree didn&apos;t focus on programming, while looking for a career change, I later committed to learning programming by enrolling at CodeStack Academy. I am always up for a challenge and I find excitement in discovering and concuring new challenges!
             </p>
             <p>When I am away from my computer you will be able most likely to find me either coaching the next generation of tennis players in the NorCal Area or riding a motorcycle around town or at the race tracks. </p>
           </div>
@@ -30,6 +31,7 @@ const About = () => {
             src={headshot}
             alt={"Kyle Ma Web Dev"}
           />
+          
         </div>
       </div>
 
